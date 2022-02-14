@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <label for="firstname">FirstName</label>
+        <input type="text" id ="firstname"><br>
+        <label for="lastname">LastName</label>
+        <input type="text" id ="lastname"><br>
+        <label for="email">Email</label>
+        <input type="email" id ="email"><br>
+        <label for="repeatemail">Repeat Email</label>
+        <input type="email" id ="repeatemail" autocomplete="autocomplete_off_randString"><br>
+        <label for ="password">Password</label>
+        <input type="password" id="password"><br>
+        <label for ="passwordrepeat">Reapeat Password</label>
+        <input type="password" id="passwordrepeat"><br>
+        <br>
+        Utbildningsnivå: <br>
+        <input type="radio" id="Grundskola" name="utbildningsnivå" value="Grundskola" checked>
+        <label for="Grundskola">Grundskola</label><br>
+        <input type="radio" id="Gymnasieskola" name="utbildningsnivå" value="Gymnasieskola">
+        <label for="Gymnasieskola">Gymnasieskola</label><br>
+        <input type="radio" id="Högskola" name="utbildningsnivå" value="Högskola">
+        <label for="Högskola">Högskola</label><br>
+        <br>
+        Intressen:<br>
+        <input type="checkbox" id="Dator" name="Intressen" value="Dator">
+        <label for="Dator">Dator</label><br>
+        <input type="checkbox" id="programmering" name="Intressen" value="programmering">
+        <label for="programmering">Programmering</label><br>
+        <input type="checkbox" id="Spel" name="Intressen" value="Spel">
+        <label for="Spel">Spel</label><br>
+        <br>
+        Stjärntecken:
+        <label for="Stjärntecken">Stjärntecken</label>
+        <select name="Stjärntecken" id="Stjärntecken">
+            <option value="Jungfru">Jungfru</option>
+            <option value="Skytt">Skytt</option>
+            <option value="Tvilling">Tvilling</option>
+            <option value="Fiskarna">Fiskarna</option>
+            <option value="Bocken">Bocken</option>
+            <option value="Skorpinion">Skorpinion</option>
+           
+        </select><br><br>
+        Övrigt: <br>
+        <textarea name="message" rows="10" cols="30">
+        
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
